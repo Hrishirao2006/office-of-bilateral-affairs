@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Office of Bilateral Affairs — Special Diplomatic Session 2026</title>
+<meta name="description" content="Special Diplomatic Session, 2026.">
+<meta property="og:title" content="The Office of Bilateral Affairs"><meta property="og:description" content="Special Diplomatic Session, 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/theme.css"></head><body><div class="frame">
+<nav aria-label="Main"><a href="#home">HOME</a><a href="#gate">ENTER PORTAL</a></nav>
+<main><div class="wrap fade">
+<section id="home">
+<img class="seal" src="assets/seal.svg" alt="Seal of the Office of Bilateral Affairs (fictional)">
+<h1>THE OFFICE OF BILATERAL AFFAIRS</h1>
+<p class="session">SPECIAL DIPLOMATIC SESSION — 2026</p>
+<p class="session">RESOLUTION NO. HR-TR/2026/001</p>
+<p class="sub">Proposal for the Restoration of Bilateral Relations</p>
+<div class="parties"><div><small>SUBMITTED BY</small><strong>THE APPLICANT — HRISHI</strong></div><div><small>SUBMITTED TO</small><strong>HER SUPREME EXCELLENCY — TRISHIKA</strong></div></div>
+<p class="status" id="status"></p>
+<p class="intro">The Office of Bilateral Affairs has received a formal proposal concerning the possible restoration of bilateral relations between the Applicant and the Supreme Leader. The proposal has been placed before Her Supreme Excellency for independent consideration.</p>
+<button id="enter">ENTER THE DIPLOMATIC PORTAL</button></section>
+<section id="gate" hidden><div class="panel">
+<h2>CLASSIFIED ACCESS TERMINAL</h2>
+<form id="gateForm" autocomplete="off"><label for="answer">WHICH NATION ARE YOU THE RULER OF?</label>
+<input id="answer" placeholder="ENTER THE NAME OF YOUR NATION" autocomplete="off" autocapitalize="characters" spellcheck="false">
+<button type="submit">VERIFY CREDENTIALS</button></form><div id="msg" role="status" aria-live="polite"></div></div></section>
+<section id="chamber" hidden tabindex="-1"><div class="panel chamber"><div class="grant"><p class="ok">ACCESS GRANTED.</p><p>WELCOME, HER SUPREME EXCELLENCY, TRISHIKA.</p><p>YOUR PRIVATE CHAMBER IS NOW OPEN.</p><p class="sub">“YOUR EXCELLENCY, THE OFFICE OF BILATERAL AFFAIRS HAS BEEN AWAITING YOUR ARRIVAL.”</p></div><div id="chamber-body"></div></div></section>
+</div></main>
+<footer><div class="motto">“Peace is not the absence of disagreement, but the presence of mutual understanding.”</div></footer>
+</div>
+<script src="config/site-config.js"></script><script>document.getElementById("status").textContent=SITE.status</script><script src="js/chamber.js"></script><script src="js/app.js"></script></body></html>
